@@ -122,13 +122,49 @@ int main() {
 
      //comparação das cartas
 
-    printf("A população da Carta 1 é maior que da Carta 2? %d\n", resultado_populacao);
-    printf("A Área da Carta 1 é maior que da Carta 2? %d\n", resultado_area);
-    printf("O PIB da Carta 1 é maior que o da Carta 2? %d\n", resultado_pib);
-    printf("A Carta 1 tem mais Pontos Turisticos que a Carta 2? %d\n", resultado_ponto_turistico);
-    printf("A Densidade Populacional da Carta 1 é maior que da Carta 2? %d\n", resultado_densidade);
-    printf("O PIB Per Capita da Carta 1 é maior que da Carta 2? %d\n", resultado_densidade);
-    printf("O Super Poder da Carta 1 é maior que da Carta 2? %d\n", resultado_super_poder);
+     if (populacao_1 > populacao_2){
+        printf("População: CARTA1 Venceu!\n");
+     } else {
+        printf("População: CARTA2 Venceu!\n");
+    }
+     if (area_1 > area_2) {
+        printf("Área: CARTA1 Venceu!\n");
+     } else {
+        printf("Área: CARTA2 Venceu!\n");
+    }
+    if(pib_1 > pib_2) {
+        printf("PIB: CARTA1 Venceu!\n");
+    } else{
+        printf("PIB: CARTA2 Venceu!\n");
+    }
+    if(pontos_turisticos_1 > pontos_turisticos_2) {
+        printf("Pontos Turisticos: CARTA1 Venceu!\n");
+    } else {
+        printf("Pontos Turisticos: CARTA2 Venceu!\n");
+    }
+    if(densidade_1 > densidade_2) {
+        printf("Densidade Populacional: CARTA1 Venceu!\n");
+    } else {
+        printf("Densidade populacional: CARTA2 Venceu!\n");
+    }
+    if(pib_percapita_1 < pib_percapita_2) {
+        printf("PIB Per Capita: CARTA1 Venceu!\n");
+    } else {
+        printf("PIB Per Capita: CARTA2 Venceu\n");
+    }
+    if(super_poder_1 > super_poder_2) {
+        printf("Super Poder: CARTA1 Venceu!\n");
+    } else {
+        printf("Super Poder: CARTA Venceu!\n");
+    }
+
+    //printf("A população da Carta 1 é maior que da Carta 2? %d\n", resultado_populacao);
+    //printf("A Área da Carta 1 é maior que da Carta 2? %d\n", resultado_area);
+    //printf("O PIB da Carta 1 é maior que o da Carta 2? %d\n", resultado_pib);
+    //printf("A Carta 1 tem mais Pontos Turisticos que a Carta 2? %d\n", resultado_ponto_turistico);
+    //printf("A Densidade Populacional da Carta 1 é maior que da Carta 2? %d\n", resultado_densidade);
+    //printf("O PIB Per Capita da Carta 1 é maior que da Carta 2? %d\n", resultado_densidade);
+    //printf("O Super Poder da Carta 1 é maior que da Carta 2? %d\n", resultado_super_poder);
 
     return 0;
 }
